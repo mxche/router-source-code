@@ -7,7 +7,17 @@
     <router-view />
   </div>
 </template>
-
+<script>
+export default {
+  name: "app",
+  components: {},
+  data() {
+    return {
+      name: "111",
+    };
+  },
+};
+</script>
 <style>
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
